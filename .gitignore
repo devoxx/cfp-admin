@@ -1,0 +1,15 @@
+*.log
+*.swp
+*.orig
+*.project
+*.classpath
+*.settings
+*.iws
+*.ipr
+*.iml
+.DS_Store
+target/
+bin/
+.idea/
+pom.xml.releaseBackup
+release.properties
