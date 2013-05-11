@@ -1,4 +1,4 @@
-var app = angular.module('DevoxxCfpAdminApp', ['ui.bootstrap', '$strap.directives'], null);
+var app = angular.module('DevoxxCfpAdminApp', ['Services', 'ui.bootstrap', '$strap.directives'], null);
 
 app.config(function($routeProvider) {
     console.log('generic config')
