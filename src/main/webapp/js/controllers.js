@@ -12,5 +12,8 @@ app.controller('AppCtrl', function($rootScope, $route, $log) {
     $log.debug($route.routes)
 });
 
-app.controller('HomeCtrl', function($scope, $location) {
+app.controller('HomeCtrl', function($scope, $location, TalksService) {
+    $scope.data = {
+        talks: TalksService.talks()
+    }
 });
